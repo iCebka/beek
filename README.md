@@ -18,6 +18,9 @@ flowchart LR
 
 A `PASS` concerns the specified intents in the fixed model context, starting from the declared initial state. Beek returns configuration files; applying them to a running cluster requires a separate procedure. The core does not manage a rollout.
 
+
+![algorithm](docs/figures/beek_algorithm.png)
+
 ## Start here
 
 These are importable Python modules. There is no Beek CLI or package installer in this tree. You need Python, PyYAML, Z3's Python bindings, GCC, and a writable [Kivi checkout](https://github.com/bingzheliu/Kivi) with its bundled SPIN executable. See [installation](docs/installation.md) for layout and checks.
